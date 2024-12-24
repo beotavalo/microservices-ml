@@ -1,0 +1,8 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: postgres-storage-class
+provisioner: kubernetes.io/aws-ebs  # Change to your cloud provider or local provisioner
+parameters:
+  type: gp2  # General-purpose SSD for AWS
+  fsType: ext4
