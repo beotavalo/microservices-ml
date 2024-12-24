@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: alpine-statefulset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: alpine
+  serviceName: "alpine-service"
+  template:
+    metadata:
+      labels:
+        app: alpine
+    spec:
+      containers:
+      - name: alpine
+        image: alpine
+        command:
+        - sleep
+        - "3600"
