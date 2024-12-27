@@ -40,7 +40,7 @@ Kind:
 ```
 kind create cluster
 ```
-For cloud-based clusters (e.g., GKE, EKS, AKS), ensure that the cluster is up and running via your cloud provider's management console.
+For cloud-based clusters (e.g., GKE, EKS, AKS), please ensure the cluster is up and running via your cloud provider's management console.
 4. Check API Server Connection
 
 Verify that kubectl can connect to the API server:
@@ -56,14 +56,14 @@ kubectl apply --dry-run=client -f first_manifest.yml
 ```
 6. Temporary Workaround: Turn Off Validation
 
-If you just want to proceed without validation and are confident in your manifest file:
+If you want to proceed without validation and are confident in your manifest file:
 ```
 kubectl apply --validate=false -f first_manifest.yml
 ```
 7. Common Causes of This Issue
 
 API Server Not Running: Ensure the Kubernetes cluster is operational.
-Incorrect Configuration: Your kubectl configuration may point to a non-existent or incorrect cluster.
+Incorrect Configuration: Your kubectl configuration may indicate a non-existent or inaccurate cluster.
 Firewall or Network Issues: Ensure you can reach the Kubernetes API server from your machine.
 
 8. Debugging Tips
@@ -72,6 +72,10 @@ If you still face issues, check the kubectl configuration:
 ```
 kubectl config view
 ```
-Inspect the clusters, contexts, and users sections for accuracy.
+Please look over the clusters, contexts, and users sections for accuracy.
 
-Let me know if you'd like assistance troubleshooting further!
+## References:
+- [Is Microservice Architecture the best choice for Machine Learning Deployment?](https://towardsdatascience.com/is-microservice-architecture-the-best-choice-for-machine-learning-deployment-39ae325a2baf)
+- [A Tale of Two Architectures](https://towardsdatascience.com/a-tale-of-two-architectures-48758462f5fd)
+- [The Role of Microservices in ML](https://medium.com/mlops-community/the-role-of-microservices-in-ml-11f5bdd2a0b8)
+- 
