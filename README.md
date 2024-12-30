@@ -1,5 +1,7 @@
 # Microservices for ML Projects
 Tools and examples of microservices architecture for Machine Learning projects.
+## Docker
+
 
 ## Kubernetes
 
@@ -73,6 +75,7 @@ If you still face issues, check the kubectl configuration:
 kubectl config view
 ```
 Please look over the clusters, contexts, and users sections for accuracy.
+
 
 ## References:
 - [Is Microservice Architecture the best choice for Machine Learning Deployment?](https://towardsdatascience.com/is-microservice-architecture-the-best-choice-for-machine-learning-deployment-39ae325a2baf)
