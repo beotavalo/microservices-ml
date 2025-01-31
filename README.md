@@ -81,4 +81,4 @@ Please look over the clusters, contexts, and users sections for accuracy.
 - [Is Microservice Architecture the best choice for Machine Learning Deployment?](https://towardsdatascience.com/is-microservice-architecture-the-best-choice-for-machine-learning-deployment-39ae325a2baf)
 - [A Tale of Two Architectures](https://towardsdatascience.com/a-tale-of-two-architectures-48758462f5fd)
 - [The Role of Microservices in ML](https://medium.com/mlops-community/the-role-of-microservices-in-ml-11f5bdd2a0b8)
-- 
+- [Monolith vs micro: The $1M ML design decision](https://medium.com/@ayush.ranjan0503/microservices-vs-monolithic-architecture-572e73050e58)
