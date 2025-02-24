@@ -1,4 +1,4 @@
-# Microservices for ML Projects
+ok# Microservices for ML Projects
 Tools and examples of microservices architecture for Machine Learning projects.
 ## Docker
 
@@ -82,3 +82,4 @@ Please look over the clusters, contexts, and users sections for accuracy.
 - [A Tale of Two Architectures](https://towardsdatascience.com/a-tale-of-two-architectures-48758462f5fd)
 - [The Role of Microservices in ML](https://medium.com/mlops-community/the-role-of-microservices-in-ml-11f5bdd2a0b8)
 - [Monolith vs micro: The $1M ML design decision](https://medium.com/@ayush.ranjan0503/microservices-vs-monolithic-architecture-572e73050e58)
+- [Machine Learning in Production: Using Istio to Mesh Microservices in Google Kubernetes]( https://medium.com/retina-ai-health-inc/machine-learning-in-production-using-istio-to-mesh-microservices-in-google-kubernetes-engine-9b15fb643bab)
