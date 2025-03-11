@@ -84,3 +84,4 @@ Please look over the clusters, contexts, and users sections for accuracy.
 - [Monolith vs micro: The $1M ML design decision](https://medium.com/@ayush.ranjan0503/microservices-vs-monolithic-architecture-572e73050e58)
 - [Machine Learning in Production: Using Istio to Mesh Microservices in Google Kubernetes]( https://medium.com/retina-ai-health-inc/machine-learning-in-production-using-istio-to-mesh-microservices-in-google-kubernetes-engine-9b15fb643bab)
 - [What is Istio?](https://cloud.google.com/learn/what-is-istio?hl=en#what-is-istio)
+- [Deploy ML models at the edge with Microk8s, Seldon and Istio](https://medium.com/ubuntu-ai/deploy-ml-models-at-the-edge-with-microk8s-seldon-and-istio-5b97fe695578)
